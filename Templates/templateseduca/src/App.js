@@ -1,9 +1,13 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/navbar';
+import Sidebar from './components/sidebar';
 
 function App() {
   return (
     <div className="App">
-     <h1>EDUCA</h1>
+      <Navbar />
+      <Sidebar/>
     </div>
   );
 }
